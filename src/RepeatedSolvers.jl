@@ -1,5 +1,7 @@
 module RepeatedSolvers
 
-# package code goes here
+abstract Solver
+include("direct_solver.jl")
+include("jacobi_solver.jl")
 
-end # module
+end
